@@ -1,35 +1,31 @@
 # Site
-name: "Affiliates Theme for Jekyll"
-title: "Affiliates Theme for Jekyll"
-description: "Jekyll Theme for Blogging"
+name: "Simple Step"
+title: "Simple Step"
+description: "Take a simple step. Then plan your next one."
 meta_description: "Jekyll theme for blogging."
-logo: 'assets/images/logo.png'
+# logo: 'assets/images/logo.png'
+logo: 'assets/images/Untitled (1).svg'
+logosize: 50
 favicon: 'assets/images/favicon.ico'
 paginate: 12
-baseurl: '/'
-email: 'wowthemesnet@gmail.com'
+# baseurl: '/'
+baseurl: ''
+email: 'stephen@simplestep.ca'
 google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
-sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
+disqus: 'sdoxsee-github-io'
+twitter: 'doxsees'
+# sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
+  stephen:
+    name: Stephen
+    display_name: Stephen
+    gravatar: 38c52c70df7bac0b26c2f691508fa54b
+    email: 'stephen@simplestep.ca'
+    web: https://simplestep.ca
+    twitter: https://twitter.com/doxsees
+    description: "Founder of Simple Step."
 
 # Plugins
 plugins: 

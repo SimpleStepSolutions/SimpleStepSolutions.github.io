@@ -45,9 +45,16 @@
     <div class="container">
 
         <!-- Begin Logo -->
+        {% if site.logo %}
         <a class="navbar-brand" href="{{ site.baseurl }}/">
-        <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+        <img src="{{ site.baseurl }}/{{ site.logo }}" style="vertical-align:middle;" alt="{{ site.name }}" width="{{site.logosize}}"/>
+        {{ site.name }}
         </a>
+        {% else %}
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+        {{ site.name }}
+        </a>
+        {% endif %}
         <!-- End Logo -->
 
         <!-- Begin Menu -->
@@ -154,7 +161,8 @@
                 <div class="col-sm-3">
                 <div class="footer-widget">
                 <a href="{{site.baseurl}}/contact">
-                <img src="{{ site.baseurl }}/assets/images/logo-footer.png">
+                    <i class="fa fa-at fa-5x"></i>
+                <!-- <img src="{{ site.baseurl }}/assets/images/logo-footer.png"> -->
                 </a>
                 </div>
                 </div>
