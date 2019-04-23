@@ -17,7 +17,7 @@ Simple Step is
 
 > "...an absolute pleasure to work with....reliable, communicative, and fully dedicated to project success...a keen eye for creative solutions" ~ Domain7
 
-# <a class="highlight" href="{{site.baseurl}}/contact">Find out more</a>
+# <a class="highlight" href="{{site.baseurl}}/contact">Take a simple step by dropping us a line</a>
 
 
 
