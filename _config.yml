@@ -4,7 +4,7 @@ title: "Simple Step"
 description: "Take a simple step. Then plan your next one."
 meta_description: "Jekyll theme for blogging."
 # logo: 'assets/images/logo.png'
-logo: 'assets/images/Untitled (1).svg'
+logo: 'assets/images/logo.svg'
 logosize: 50
 favicon: 'assets/images/favicon.ico'
 paginate: 4
