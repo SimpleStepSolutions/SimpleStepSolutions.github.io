@@ -142,11 +142,11 @@ I've shown most but not all of the code but let's try it all out!
 
 Assuming you've cloned the project from [GitHub](https://github.com/sdoxsee/http-invoker-over-oauth2), start up the server and then the client. Trigger a login flow on your client by going to http://localhost:8081 in your browser and you'll get a screen like this:
 
-![Client Login Page](https://previews.dropbox.com/p/thumb/AAaQM8Yz18DGcE5fDBVoeiLKvueUVuXp2VLMM6Bhbv7gShi8-GrHO-rSSmfj3f0POa3nYCtJsGv9LMmOtm-LuRYYip8sJpfyhVWoGIDMLAXTcLJVnmz8gznmCyCIhOD4qniNi6CSdwcLdToHcg_rUwhDdZAoIttRQYYPAO1ak0D6MQphR_a7VeWoeQAbZaqMHDewQn89azjNnbhsAyn-hz-Ewzh7a8FGBRTzJpsHxeG2sWzuM6kjhGgS6lRviPCE3kUZu0xORHFmpORLEDyFjO_iiKFrOE1_nKItghl12U9n5tUYsH6jG87LN39PZfiYCr7t8c_Tbsl28jVpSBdgzuDJVgPDV6Wcqz0tuUNh6adfAyRNyoQ0EP25BTNig4lJywybkSC-JLl22oqKme5seypWe9X_QVTAK7xlXDNCBc6gzQ/p.png?size_mode=5)
+![Client Login Page](/assets/images/2019-03-27/SpringLogin.png)
 
 Click on the Okta link and you should see the Okta IdP sign in page below (unless you've already signed in to the Okta IdP)
 
-![Okta IdP Login Page](https://previews.dropbox.com/p/thumb/AAaqfdp65go3zLN6DL-0kMl_pxAgiLpxF_gpKFAIdmObWPpV30M7zs-9X-YrrSopQlwWQaZ51-IozOs4LqdiziCBWbxOJh8Jvw53A-yHCcIHGdZTvRrqYn0rEJyn7MVQA49lku5ERMkK5LnuvaKDt7lpgyoQ7ZaVmnSFFrMXfN1LBPetYsSG5Ax4YF5ephKynjWorz1ig78dJ1YyI6t67LVOXiY_f_VA_-yZCo746Ti02OBA887wZKhTEETmvhmkMKyqDXfovR1NJOb-Uvc-piioODyCznmxD-VhpQpwsySyMhvZHyqQsocRqTPg4A_1JjC5JdXiBHp9itkOdKwC_Rb1i5DOx78S-xvIO1KWguP-PctbAyQYf3w4U0yW55MaqFMIuTXiTzo7rmjGUcS5PxBtMF7c-qQq5XDRGEj80RE7lw/p.png?size_mode=5)
+![Okta IdP Login Page](/assets/images/2019-03-27/OktaLogin.png)
 
 Sign in with `user@example.com`/`Password1` (if someone hasn't changed it!) or sign up for your own account with Okta on that IdP instance (using the sign up link on the page). Once you've signed in to Okta's IdP, your client should have an access token with which it can talk to the server! In fact, you should already see something like this in your browser:
 
