@@ -12,7 +12,7 @@ paginate_path: "/blog/page:num/"
 # baseurl: '/'
 baseurl: ''
 email: 'website@simplestep.ca'
-google_analytics: 'UA-46278016-1'
+google_analytics: 'UA-139188139-1'
 disqus: 'simplestep'
 twitter: 'doxsees'
 # sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
