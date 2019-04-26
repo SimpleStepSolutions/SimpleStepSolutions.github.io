@@ -11,9 +11,9 @@ paginate: 4
 paginate_path: "/blog/page:num/"
 # baseurl: '/'
 baseurl: ''
-email: 'stephen@simplestep.ca'
+email: 'website@simplestep.ca'
 google_analytics: 'UA-46278016-1'
-disqus: 'sdoxsee-github-io'
+disqus: 'simplestep'
 twitter: 'doxsees'
 # sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
 
@@ -23,7 +23,6 @@ authors:
     name: Stephen
     display_name: Stephen
     gravatar: 38c52c70df7bac0b26c2f691508fa54b
-    email: 'stephen@simplestep.ca'
     web: https://simplestep.ca
     twitter: https://twitter.com/doxsees
     description: "Founder of Simple Step."
