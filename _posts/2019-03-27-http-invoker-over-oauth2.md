@@ -146,7 +146,8 @@ Assuming you've cloned the project from [GitHub](https://github.com/sdoxsee/http
 
 Click on the Okta link and you should see the Okta IdP sign in page below (unless you've already signed in to the Okta IdP)
 
-![Okta IdP Login Page](/assets/images/2019-03-27/OktaLogin.png)
+<!-- ![Okta IdP Login Page](/assets/images/2019-03-27/OktaLogin.png) -->
+![Okta IdP Login Page](https://ucc50d275ea8ec7359a80a04a949.previews.dropboxusercontent.com/p/thumb/AAZNSHG7-8bPYJ2VPEc58xYtDjvOV5aM-bRaeCbytX3iZIajzDKeiVc6BX_xxC6quBYmajOvm420O1839i28o6I13EUep0g2q1bTkI4hryKPzIjD-Yx16JqZnrwkgVbz0aUSfPtPuO21GQUoBk6lp340YR3llp5TexSc1qv-q5BepcYs4Qsh7qOu295vKrx2mOPKabMSG5q8msdjbKBfw9aTf9fTYxDwco8dI1vqc9pDo9aK1G19tEcq3CxV_d0u06OoX0F5KuhEDXBvKd33B3-OOW59ngRGhqE7cbqyEIoZT1as7W8IBtPi4xJT3JnE0JN0AhcZTuXNaV0aZ8Nmq6CaSk8MKq6uLEdCEmbSc7kawLqe1gGzeBtVHlew4JenAKfJH2OuelvbVBwtHodo25eKk-JRgMC2ZXy6dGDk15EiBapoV6H8S6tbu2ANgtHEVKnKWmybo5uirYoYzdHa13pN/p.png?size_mode=5)
 
 Sign in with `user@example.com`/`Password1` (if someone hasn't changed it!) or sign up for your own account with Okta on that IdP instance (using the sign up link on the page). Once you've signed in to Okta's IdP, your client should have an access token with which it can talk to the server! In fact, you should already see something like this in your browser:
 
