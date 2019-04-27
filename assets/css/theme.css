@@ -68,7 +68,7 @@ section.recent-posts {
     left: 15px;
     right: 0px;
     top: 12px;
-    height: 1px;
+    /* height: 1px; */
     content: '';
     background-color: #f5f5f5;
 }
