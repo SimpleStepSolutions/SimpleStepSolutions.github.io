@@ -29,7 +29,7 @@ post_class: post-template
                         {% for category in sortedCategories %}
                         <li>
                          <!-- <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a> -->
-                         <a href="{{site.baseurl}}/categories.html#{{ category | replace: " ","-" }}">#{{ category }}</a>
+                         <a href="{{site.baseurl}}/categories.html#{{ category | replace: " ","-" }}">{{ category }}</a>
                         </li>
                         {% endfor %}
                     </ul>
