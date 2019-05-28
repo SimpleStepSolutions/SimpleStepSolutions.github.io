@@ -13,9 +13,12 @@ Simple Step is
 * **Communicative** - we want you to know what you need to know
 
 ## Testimonials
-> "Simple Step has delivered beyond our expectations...I can't recommend Stephen enough" ~ Benefits by Design
+> "Simple Step has delivered beyond our expectations...I can't recommend Stephen enough" ~ Kurt, Benefits by Design
 
-> "...an absolute pleasure to work with....reliable, communicative, and fully dedicated to project success...a keen eye for creative solutions" ~ Domain7
+> "...an absolute pleasure to work with....reliable, communicative, and fully dedicated to project success...a keen eye for creative solutions" ~ Tyler, Domain7
+
+> "I was hopeless. And this is when Stephen came. He made sure he [understood] what I [wanted] to do...he wasn't focusing on winning the job...It's all about his genuine interest...helping me find a way out. Stephen is professional and definitely put his heart on the job. He communicates clearly on what to expect out of his work. He knows his field well and also went above and beyond...I am a super happy client. I won't blink twice to hire him again in the future."
+~ Patricia, Aharya
 
 # <a class="highlight" href="{{site.baseurl}}/contact">Take a simple step by dropping us a line</a>
 
