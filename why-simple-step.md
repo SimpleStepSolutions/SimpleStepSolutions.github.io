@@ -10,10 +10,16 @@ Simple Step is
 * **Modern** - we move with the cutting edge of technology and
 * **North American** - we work in EST so we're around when you need us
 * **Connected** - we've been around so we can find the right solutions
-* **Communicative** - we want you to know what you need to know
+* **Communicative** - we believe in communicating clearly and regularly
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-na.amazon-adsystem.com/e/cm?ref=tf_til&t=simplestep-20&m=amazon&o=15&p=8&l=as1&IS1=1&asins=1942788339&linkId=3606fab49f8ee42ba624272f53090160&bc1=ffffff&lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr">
-    </iframe>
+## Our Focus
+We're firm believers that "high IT performance correlates with strong business performance". Research, as outlined in <a target="_blank" href="https://www.amazon.ca/gp/product/1942788339/ref=as_li_tl?ie=UTF8&camp=15121&creative=330641&creativeASIN=1942788339&linkCode=as2&tag=simplestep-20&linkId=c5ea844cf2723322ce55b863411b91c3">Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations</a><img src="//ir-ca.amazon-adsystem.com/e/ir?t=simplestep-20&l=am2&o=15&a=1942788339" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, has shown that there are certain capabilities that drive improvements in software delivery performance regardless of organizational size or industry. So, whether we're the ones building your software or not (and we love building software!), we know that there's more to success than just code and aim to help organizations in these categories of capabilities:
+<a align="right" target="_blank"  href="https://www.amazon.ca/gp/product/1942788339/ref=as_li_tl?ie=UTF8&camp=15121&creative=330641&creativeASIN=1942788339&linkCode=as2&tag=simplestep-20&linkId=8c4812ffc5b96aecd77bbc587c5b4c1b"><img align="right" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=CA&ASIN=1942788339&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=simplestep-20" ></a><img align="right" src="//ir-ca.amazon-adsystem.com/e/ir?t=simplestep-20&l=am2&o=15&a=1942788339" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+* Continuous Delivery
+* Architecture
+* Product and process
+* Lean management and monitoring
+* Cultural
 
 ## Testimonials
 > "Simple Step has delivered beyond our expectations...I can't recommend Stephen enough" ~ Kurt, Benefits by Design
