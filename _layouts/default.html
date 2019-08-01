@@ -48,11 +48,11 @@
         {% if site.logo %}
         <a class="navbar-brand" href="{{ site.baseurl }}/">
         <img src="{{ site.baseurl }}/{{ site.logo }}" style="vertical-align:middle;" alt="{{ site.name }}" width="{{site.logosize}}"/>
-        {{ site.name }}
+        {{ site.title }}
         </a>
         {% else %}
         <a class="navbar-brand" href="{{ site.baseurl }}/">
-        {{ site.name }}
+        {{ site.title }}
         </a>
         {% endif %}
         <!-- End Logo -->
@@ -202,7 +202,7 @@
                 <div class="col-sm-4">
                 <div class="footer-widget">
                     <h5 class="title">Location</h5>
-                    <p>We're located in near Royal York Station in Toronto, Canada</p> 
+                    <p>We're located near Royal York Station in Toronto, Canada</p> 
                     <div class="text-right footersocial">
                         <div class="textwidget">
                             <a href="{{ site.baseurl }}/contact">Connect with us</a>  
@@ -222,9 +222,9 @@
                 <p class="pull-left">
                 Copyright © {{ site.time | date: "%Y" }} {{ site.official_name }}.
                 </p>
-                <p class="pull-right">
+                <p style="color:rgb(63, 63, 63)" class="pull-right">
                 <!-- Please, leave credit to author unless you own a commercial license: https://www.wowthemes.net/freebies-license/ --> 
-                <a target="_blank" href="https://www.wowthemes.net/free-jekyll-template-affiliates/">"Affiliates Theme"</a> - Design & Code by WowThemes.net
+                <a style="color:rgb(63, 63, 63)" target="_blank" href="https://www.wowthemes.net/free-jekyll-template-affiliates/">"Affiliates Theme"</a> - Design & Code by WowThemes.net
                 </p>
                 <div class="clearfix"></div>
             </div>
