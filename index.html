@@ -8,33 +8,30 @@ title: Home
 <section class="intro full-width">
     <div class="wrapintro">
         <h1><img src="{{ site.baseurl }}/{{ site.logo }}" style="vertical-align:middle;" alt="{{ site.name }}" width="75"/>&nbsp;Simple Step</h1>
-        <h2 class="lead">Take a simple step. Then plan your next one.</h2>    
+        <h2 class="lead">{{ site.description }}</h2>    
         <!-- <a href="https://github.com/wowthemesnet/affiliates-jekyll-theme/archive/master.zip" class="btn">Download</a> -->
-        <a href="{{ site.baseurl }}/about" class="btn">Why us?</a>
+        <a href="{{ site.baseurl }}/why-simple-step" class="btn">Why us?</a>
     </div>
 </section>
 
 
-<!-- Featured
-================================================== -->
-<section class="featured-posts">
+<section class="recent-posts row">
 
-    <div class="section-title">
-        <h2><span>Featured</span></h2>
+    <div class="col-lg-4">
+        {% include sidebar.html %}
     </div>
 
-    <div class="row listfeaturedtag">
+    <div class="col-lg-8">
 
-    {% for post in site.posts %}
+        <!-- <div class="section-title">
+            <h2><span>Is this you?</span></h2>    
+        </div> -->
 
-        {% if post.featured == true %}
-
-            {% include featuredbox.html %}
-
-        {% endif %}
-
-    {% endfor %}
+        <div class="row">
+            {% include is-this-you.html %} 
+        </div>
 
     </div>
 
 </section>
+

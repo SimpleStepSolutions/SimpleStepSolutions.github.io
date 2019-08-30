@@ -2,8 +2,8 @@
 name: "Simple Step Solutions"
 official_name: "Simple Step Solutions"
 title: "Simple Step"
-description: "Take a simple step. Then plan your next one."
-meta_description: "Jekyll theme for blogging."
+description: "We help organizations build secure, extensible, and cost-effective software quickly"
+meta_description: "We help organizations build secure, extensible, and cost-effective software quickly."
 # logo: 'assets/images/logo.png'
 logo: 'assets/images/logo.svg'
 logosize: 50
@@ -36,14 +36,18 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-        
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+          
 # Archives
 jekyll-archives:
   enabled:
-    - categories
+    - tags
   layout: archive
   permalinks:
-    category: '/category/:name/'
+    category: '/tags/:name/'
     
 # Other
 markdown: kramdown
