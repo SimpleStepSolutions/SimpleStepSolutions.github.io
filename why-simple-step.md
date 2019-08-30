@@ -28,7 +28,7 @@ here's where we <i>excel</i>:
             </div>
         </div>
         <div class="col-md-6 d-flex">
-            <div class="card card-danger flex-fill">
+            <div class="card card-warning flex-fill">
                 <div class="card-block">
                     <div class="text-center">
                         <h4 class="card-title">Mad Nerd Skills</h4>
