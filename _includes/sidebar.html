@@ -1,23 +1,23 @@
-<div class="sidebar">
+<!-- <div class="sidebar"> -->
         
-        <div class="sidebar-section">
-            <!-- <div class="section-title"> -->
+        <!-- <div class="sidebar-section"> -->
+            <div class="section-title">
                 <h5><span>Featured</span></h5>    
-            <!-- </div> -->
+            </div>
     
-            <div class="masonrygrid row listrecent">
+            <div class="row listfeaturedtag">
 
                 {% for post in site.posts %}
             
                     {% if post.featured == true %}
             
-                        {% include postbox-side.html %}
+                        {% include featuredbox.html %}
             
                     {% endif %}
             
                 {% endfor %}
             
             </div>
-        </div>
+        <!-- </div> -->
             
-</div>
+<!-- </div> -->
