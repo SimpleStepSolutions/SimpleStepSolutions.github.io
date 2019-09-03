@@ -24,6 +24,7 @@ comments: false
     | <img style="height:40px;box-shadow:none" src="assets/images/kubernetes.svg"/> | | Kubernetes | 
     | <img style="height:40px;box-shadow:none" src="assets/images/jenkinsx2.svg"/> | | CI/CD (including Jenkins X)| 
 
+<div id="accelerate"></div>
 ## Evidence-based approach to accelerating software delivery performance
 
 > **"high IT performance correlates with strong business performance"** ~ <a target="_blank" href="https://www.amazon.ca/gp/product/1942788339/ref=as_li_tl?ie=UTF8&camp=15121&creative=330641&creativeASIN=1942788339&linkCode=as2&tag=simplestep-20&linkId=c5ea844cf2723322ce55b863411b91c3">Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations</a><img src="//ir-ca.amazon-adsystem.com/e/ir?t=simplestep-20&l=am2&o=15&a=1942788339" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
