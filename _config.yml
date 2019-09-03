@@ -17,7 +17,7 @@ google_analytics: 'UA-139188139-1'
 disqus: 'simplestep'
 twitter: 'doxsees'
 include: ["_pages"]
-# sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
+sharethis: '<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5d6ea79416b81b001213901a&product=sticky-share-buttons' async='async'></script>'
 
 # Authors
 authors:
