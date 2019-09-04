@@ -4,7 +4,7 @@ title:  "SpringOne Platform 2019"
 author: stephen
 tags: [News, Events, Conferences, SpringOne]
 image: assets/images/2019-09-01-springone/headed-to-springone.jpg
-featured: false
+featured: true
 ---
 We're unbelievably honoured to speak this October at SpringOne Platform 2019 with a legend--Joe Grandja from Pivotal and also from Toronto, Canada.
 
