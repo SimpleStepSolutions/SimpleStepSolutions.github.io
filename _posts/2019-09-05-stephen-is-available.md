@@ -4,7 +4,7 @@ title:  "Microservices Security Protocols and Patterns"
 author: stephen
 tags: [News, Conferences, SpringOne]
 image: assets/images/2019-09-04/sp1-logo.jpg
-featured: true
+featured: false
 ---
 
 If you're here because you are anticipating or have seen Stephen's talk with Joe Grandja at SpringOne Platform, Stephen is available to hire!
