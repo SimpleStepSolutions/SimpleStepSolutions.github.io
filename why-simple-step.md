@@ -3,7 +3,7 @@ layout: page
 title: Why Simple Step?
 comments: false
 ---
-Yes, we've built great software have and will continue to build great software across sectors with a wide-ranging features.
+Yes, we've built great software and will continue to build great software across sectors with a wide-ranging features.
 
 **But...** 
 
@@ -11,7 +11,7 @@ here's where we <i>excel</i>:
 
 <div class="row my-3">
     <div class="col-md-6 d-flex">
-        <div class="card card-danger flex-fill">
+        <div class="card card-danger flex-fill" id="hard-skills">
             <div class="card-block">
                 <div class="text-center">
                     <h4 class="card-title">Hard Skills</h4>
