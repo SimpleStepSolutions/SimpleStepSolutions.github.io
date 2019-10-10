@@ -6,7 +6,7 @@ tags: [News, Events, Conferences, SpringOne]
 image: assets/images/2019-09-01-springone/headed-to-springone.jpg
 featured: true
 ---
-We're unbelievably honoured to speak this October at SpringOne Platform 2019 with a legend--Joe Grandja from Pivotal and also from Toronto, Canada.
+We're honoured to speak this October at SpringOne Platform 2019 with Joe Grandja from the core Spring Security team.
 
 > [Implementing Microservices Security Patterns and Protocols with Spring Security](https://springoneplatform.io/2019/sessions/implementing-microservices-security-patterns-protocols-with-spring-security)
 
