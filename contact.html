@@ -17,8 +17,16 @@ title: Contact
 
     </div>
 
-    <textarea rows="8" class="form-control mb-3" name="message" placeholder="Message"></textarea>
+    <textarea id="formSpreeTextArea" rows="8" class="form-control mb-3" name="message" placeholder="Message"></textarea>
     
     <input class="btn btn-success" type="submit" value="Send">
 
 </form>
+
+<script type='text/javascript'>
+    let params = (new URL(document.location)).searchParams;
+    let plan = params.get("plan");
+    if (plan !== null) {
+        document.getElementById("formSpreeTextArea").value = "Hi, I'm inquiring about the \"" + plan + "\" plan!\n";
+    }
+    </script>

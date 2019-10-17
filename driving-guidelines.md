@@ -16,12 +16,13 @@ comments: false
 ## Open-source community participation
 * We use and contribute to open source technologies; specializing in
 
-    | <img style="height:40px;box-shadow:none" src="assets/images/spring.svg"/> | | Java/Spring/JPA |
+    | <img style="height:40px;box-shadow:none" src="assets/images/spring.svg"/> | | Java, Spring Boot, Spring Security, JPA |
     | <img style="height:40px;box-shadow:none" src="assets/images/reactjs.svg"/> | | React/Redux | 
     | <img style="height:40px;box-shadow:none" src="assets/images/postgresql.svg"/> | | PostgreSQL | 
     | <img style="height:40px;box-shadow:none" src="assets/images/oauth.svg"/> | | OpenID Connect/OAuth2 | 
     | <img style="height:40px;box-shadow:none" src="assets/images/docker.svg"/> | | Docker | 
-    | <img style="height:40px;box-shadow:none" src="assets/images/kubernetes.svg"/> | | Kubernetes | 
+    | <img style="height:20px;box-shadow:none" src="assets/images/logo-jhipster.svg"/> | | JHipster| 
+    | <img style="height:40px;box-shadow:none" src="assets/images/kubernetes.svg"/> | | Kubernetes, GKE, etc. | 
     | <img style="height:40px;box-shadow:none" src="assets/images/jenkinsx2.svg"/> | | CI/CD (including Jenkins X)| 
 
 <div id="accelerate"></div>
