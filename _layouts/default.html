@@ -11,8 +11,10 @@
 <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
 <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
 <link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet">
-    
-{{site.sharethis}}
+
+{% if page.sharethis != false %}    
+    {{site.sharethis}}
+{% endif %}  
     
 {% if jekyll.environment == 'production' %}    
 <script>
@@ -181,7 +183,6 @@
                 <li><a href="{{ site.baseurl }}/careers">Careers</a></li>
                 <li><a href="{{ site.baseurl }}/clients">Clients</a></li>
                 <li><a href="{{ site.baseurl }}/driving-guidelines">Driving Guidelines</a></li>
-                <li><a href="{{ site.baseurl }}/pricing">Pricing</a></li>
                 <li><a href="{{ site.baseurl }}/why-simple-step">Why Simple Step?</a></li>
                 </ul>
                 </div>

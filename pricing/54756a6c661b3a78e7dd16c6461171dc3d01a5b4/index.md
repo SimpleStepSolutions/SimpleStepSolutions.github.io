@@ -2,6 +2,7 @@
 layout: default
 title: Pricing
 comments: false
+sharethis: false
 ---
 
 ## **Pricing**
