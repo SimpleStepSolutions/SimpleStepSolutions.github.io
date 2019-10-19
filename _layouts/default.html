@@ -134,7 +134,7 @@
 
     <!-- Before Footer
     ================================================== --> 
-    {% if true or page.title == "Home" or page.title == "About" %}
+    {% if page.title != "Ready?" and page.title != "Why Simple Step?" %}
     <div class="beforefooter">
         <div class="container">
             <div class="row justify-content-center">
@@ -183,6 +183,7 @@
                 <li><a href="{{ site.baseurl }}/careers">Careers</a></li>
                 <li><a href="{{ site.baseurl }}/clients">Clients</a></li>
                 <li><a href="{{ site.baseurl }}/driving-guidelines">Driving Guidelines</a></li>
+                <li><a target="_blank" href="https://sdoxsee.github.io">Technical Blog</a></li>
                 <li><a href="{{ site.baseurl }}/why-simple-step">Why Simple Step?</a></li>
                 </ul>
                 </div>

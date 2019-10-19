@@ -54,9 +54,11 @@ here's where we <i>excel</i>:
 > "I was hopeless. And this is when Stephen came. He made sure he [understood] what I [wanted] to do...he wasn't focusing on winning the job...It's all about his genuine interest...helping me find a way out. Stephen is professional and definitely put his heart on the job. He communicates clearly on what to expect out of his work. He knows his field well and also went above and beyond...I am a super happy client. I won't blink twice to hire him again in the future."
 ~ Patricia, Aharya
 
-# <a class="highlight" href="{{site.baseurl}}/contact">Take a simple step by dropping us a line</a>
-
-...or find out more about our <a class="highlight" href="{{site.baseurl}}/clients">clients</a>, <a class="highlight" href="{{site.baseurl}}/driving-guidelines">driving guidelines</a>, or our <a class="highlight" href="https://sdoxsee.github.io">technical learnings</a>.
+<!-- # <a class="highlight" href="{{site.baseurl}}/contact">Take a simple step by dropping us a line</a> -->
+<br/>
+<form>
+<button class="btn btn-lg btn-primary" formaction="{{site.baseurl}}/ready"><b>Ready to take a simple step?</b></button>
+</form>
 
 
 
