@@ -4,6 +4,10 @@ title: Clients
 comments: false
 ---
 <center>
+<p><img style="height:75px;box-shadow:none" src="assets/images/Smart-Serve-Logo.png"/>
+</p>
+<p><img style="height:75px;box-shadow:none" src="assets/images/Finaeo_Logo-3.png"/>
+</p>
 <p><img style="height:75px;box-shadow:none" src="assets/images/cibc.svg"/>
 </p>
 <p>
