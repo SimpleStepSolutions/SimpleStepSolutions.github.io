@@ -14,7 +14,7 @@ sharethis: false
 <section class="pricing py-5">
   <div class="container">
     <center>
-    <h1>Ad hoc rates</h1>
+    <h1>Ad hoc rates</h1><span style="color: white">(for engagements lasting less than 1 month)</span>
     </center>
     <br/>
     <div class="row">
@@ -66,7 +66,9 @@ sharethis: false
       </div>
     </div>
     <br/>
-    <center><h1>Monthly rates</h1></center>
+    <center>
+    <h1>Monthly rates</h1><span style="color: white">(for engagements of 1 month or more)</span>
+    </center>
     <br/>
     <div class="row">
       <div class="col-lg-4">
