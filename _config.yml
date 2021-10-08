@@ -1,8 +1,9 @@
 # Site
-name: "Simple Step"
+name: "Simple Step Solutions"
+official_name: "Simple Step Solutions"
 title: "Simple Step"
-description: "Take a simple step. Then plan your next one."
-meta_description: "Jekyll theme for blogging."
+description: "We help organizations assess, plan, build, and maintain their software with IAM-based architectures and evidence-based approaches to software delivery performance"
+meta_description: "We help organizations assess, plan, build, and maintain their software with IAM-based architectures and evidence-based approaches to software delivery performance"
 # logo: 'assets/images/logo.png'
 logo: 'assets/images/logo.svg'
 logosize: 50
@@ -11,11 +12,11 @@ paginate: 4
 paginate_path: "/blog/page:num/"
 # baseurl: '/'
 baseurl: ''
-email: 'website@simplestep.ca'
-google_analytics: 'UA-46278016-1'
+google_analytics: 'UA-139188139-1'
 disqus: 'simplestep'
 twitter: 'doxsees'
-# sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
+include: ["_pages"]
+sharethis: "<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5d6ea79416b81b001213901a&product=sticky-share-buttons' async='async'></script>"
 
 # Authors
 authors:
@@ -34,14 +35,18 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-        
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+          
 # Archives
 jekyll-archives:
   enabled:
-    - categories
+    - tags
   layout: archive
   permalinks:
-    category: '/category/:name/'
+    category: '/tags/:name/'
     
 # Other
 markdown: kramdown

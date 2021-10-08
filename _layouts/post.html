@@ -25,10 +25,11 @@ post_class: post-template
                 <!-- Post Categories -->
                 <div class="after-post-tags">
                     <ul class="tags">
-                        {% assign sortedCategories = page.categories | sort %}
+                        {% assign sortedCategories = page.tags | sort %}
                         {% for category in sortedCategories %}
                         <li>
-                         <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a>
+                         <!-- <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a> -->
+                         <a href="{{site.baseurl}}/tags.html#{{ category | replace: " ","-" }}">{{ category }}</a>
                         </li>
                         {% endfor %}
                     </ul>

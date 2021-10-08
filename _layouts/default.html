@@ -11,8 +11,10 @@
 <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
 <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
 <link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet">
-    
-{{site.sharethis}}
+
+{% if page.sharethis != false %}    
+    {{site.sharethis}}
+{% endif %}  
     
 {% if jekyll.environment == 'production' %}    
 <script>
@@ -48,11 +50,11 @@
         {% if site.logo %}
         <a class="navbar-brand" href="{{ site.baseurl }}/">
         <img src="{{ site.baseurl }}/{{ site.logo }}" style="vertical-align:middle;" alt="{{ site.name }}" width="{{site.logosize}}"/>
-        {{ site.name }}
+        {{ site.title }}
         </a>
         {% else %}
         <a class="navbar-brand" href="{{ site.baseurl }}/">
-        {{ site.name }}
+        {{ site.title }}
         </a>
         {% endif %}
         <!-- End Logo -->
@@ -132,7 +134,7 @@
 
     <!-- Before Footer
     ================================================== --> 
-    {% if page.title == "Home" or page.title == "About" %}
+    {% if page.title != "Ready?" and page.title != "Why Simple Step?" %}
     <div class="beforefooter">
         <div class="container">
             <div class="row justify-content-center">
@@ -143,13 +145,13 @@
                 </div>
                 <div class="col-md-4 text-right footersocial">
                     <h5>Connect with Us</h5>
-                    <!-- <i class="fa fa-facebook"></i> -->
-                    <a href="http://twitter.com/doxsees" target="_blank"><i class="fa fa-twitter"></i></a>
-                    <a href="https://stackoverflow.com/users/1098564/sdoxsee" target="_blank"><i class="fa fa-stack-overflow"></i></a>
-                    <a href="https://www.linkedin.com/in/stephen-doxsee-3b432243/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="http://twitter.com/SimpleStepCa" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <!-- <a href="https://stackoverflow.com/users/1098564/sdoxsee" target="_blank"><i class="fa fa-stack-overflow"></i></a> -->
+                    <!-- <a href="https://www.linkedin.com/in/stephen-doxsee-3b432243/" target="_blank"><i class="fa fa-linkedin"></i></a> -->
+                    <a href="https://www.linkedin.com/company/simplestepsolutions" target="_blank"><i class="fa fa-linkedin"></i></a>
                     <!-- <i class="fa fa-google"></i> -->
                     <!-- <i class="fa fa-pinterest"></i> -->
-                    <a href="http://github.com/sdoxsee" target="_blank"><i class="fa fa-github"></i></a>
+                    <a href="http://github.com/SimpleStepSolutions" target="_blank"><i class="fa fa-github"></i></a>
                 </div>
             </div>
         </div>
@@ -176,11 +178,12 @@
                 <div class="footer-widget">
                 <h5 class="title">Company</h5>
                 <ul>
-                <li><a href="{{ site.baseurl }}/about">About Us</a></li>
+                <li><a href="{{ site.baseurl }}/about">About</a></li>
                 <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
                 <li><a href="{{ site.baseurl }}/careers">Careers</a></li>
                 <li><a href="{{ site.baseurl }}/clients">Clients</a></li>
-                <li><a href="{{ site.baseurl }}/community">Community</a></li>
+                <li><a href="{{ site.baseurl }}/driving-guidelines">Driving Guidelines</a></li>
+                <li><a target="_blank" href="https://sdoxsee.github.io">Technical Blog</a></li>
                 <li><a href="{{ site.baseurl }}/why-simple-step">Why Simple Step?</a></li>
                 </ul>
                 </div>
@@ -202,17 +205,18 @@
                 <div class="col-sm-4">
                 <div class="footer-widget">
                     <h5 class="title">Location</h5>
-                    <p>We're located in near Royal York Station in Toronto, Canada</p> 
+                    <p>We're located near Royal York Station in Toronto, Canada</p> 
                     <div class="text-right footersocial">
                         <div class="textwidget">
                             <a href="{{ site.baseurl }}/contact">Connect with us</a>  
                         </div>
-                        <a href="http://twitter.com/doxsees" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <a href="https://stackoverflow.com/users/1098564/sdoxsee" target="_blank"><i class="fa fa-stack-overflow"></i></a>
-                        <a href="https://www.linkedin.com/in/stephen-doxsee-3b432243/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <a href="http://twitter.com/SimpleStepCa" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <!-- <a href="https://stackoverflow.com/users/1098564/sdoxsee" target="_blank"><i class="fa fa-stack-overflow"></i></a> -->
+                        <!-- <a href="https://www.linkedin.com/in/stephen-doxsee-3b432243/" target="_blank"><i class="fa fa-linkedin"></i></a> -->
+                        <a href="https://www.linkedin.com/company/simplestepsolutions" target="_blank"><i class="fa fa-linkedin"></i></a>
                         <!-- <i class="fa fa-google"></i> -->
                         <!-- <i class="fa fa-pinterest"></i> -->
-                        <a href="http://github.com/sdoxsee" target="_blank"><i class="fa fa-github"></i></a>
+                        <a href="http://github.com/SimpleStepSolutions" target="_blank"><i class="fa fa-github"></i></a>
                     </div>
                 </div>
                 </div>
@@ -220,11 +224,11 @@
 
             <div class="copyright">
                 <p class="pull-left">
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }}.
+                Copyright © {{ site.time | date: "%Y" }} {{ site.official_name }}.
                 </p>
-                <p class="pull-right">
+                <p style="color:rgb(63, 63, 63)" class="pull-right">
                 <!-- Please, leave credit to author unless you own a commercial license: https://www.wowthemes.net/freebies-license/ --> 
-                <a target="_blank" href="https://www.wowthemes.net/free-jekyll-template-affiliates/">"Affiliates Theme"</a> - Design & Code by WowThemes.net
+                <a style="color:rgb(63, 63, 63)" target="_blank" href="https://www.wowthemes.net/free-jekyll-template-affiliates/">"Affiliates Theme"</a> - Design & Code by WowThemes.net
                 </p>
                 <div class="clearfix"></div>
             </div>
