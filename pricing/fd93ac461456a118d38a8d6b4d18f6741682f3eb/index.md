@@ -26,7 +26,7 @@ sharethis: false
             <h6 class="card-price text-center">$0</h6>
             <hr>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fa fa-check"></i></span>15-minute introductory chat</li>
+              <li><span class="fa-li"><i class="fa fa-check"></i></span>30-minute introductory chat</li>
               <li><span class="fa-li"><i class="fa fa-check"></i></span><a target="_blank" href="https://calendly.com/simplestep">Schedule a call</a></li>
             </ul>
             <a href="{{ site.baseurl }}/contact?plan=Free" class="btn btn-block btn-primary text-uppercase">Contact Us</a>
@@ -119,4 +119,4 @@ sharethis: false
 
 Please inquire if you have any questions about specifics or if you're looking for alternate pricing plans.
 
-_\* Prices are in Canadian Dollars (CAD). HST (13%) will be charged to Canadian clients in addition to the advertised rate. Hours are billed to the nearest 15-minute interval except where noted._
+_\* Prices are in Canadian Dollars (CAD). HST (13%) will be charged to Canadian clients in addition to the advertised rate. Hours are billed to the nearest 30-minute interval except where noted._

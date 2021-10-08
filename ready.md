@@ -6,7 +6,7 @@ comments: false
 
 If you're interested in working with us, here's what we typically do...
 
-1. You'll <a target="_blank" href="https://calendly.com/simplestep">schedule</a> a **free** 15-minute "hello" call
+1. You'll <a target="_blank" href="https://calendly.com/simplestep">schedule</a> a **free** 30-minute "hello" call
     * You'll present your high level goals
     * We'll both ask questions
     * If things sound good, we'll set up an exploratory meeting
