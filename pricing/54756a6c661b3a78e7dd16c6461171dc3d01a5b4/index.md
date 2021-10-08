@@ -119,4 +119,4 @@ sharethis: false
 
 Please inquire if you have any questions about specifics or if you're looking for alternate pricing plans.
 
-_\* Prices are in Canadian Dollars (CAD). HST (13%) will be charged to Canadian clients in addition to the advertised rate. Hours are billed to the nearest 30-minute interval except where noted._
+_\* Prices are in Canadian Dollars (CAD). HST (13%) will be charged to Canadian clients in addition to the advertised rate. Hours are billed to the nearest 15-minute interval except where noted._
