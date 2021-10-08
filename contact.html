@@ -7,16 +7,21 @@ title: Contact
   action="https://formspree.io/f/mnqlrlrk"
   method="POST"
 >
-  <label>
-    Your email:
-    <input type="email" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+   <div class="form-group row">
+
+        <div class="col-md-6">
+            <input class="form-control" type="text" name="name" placeholder="Name">
+        </div>
+
+        <div class="col-md-6">
+            <input class="form-control" type="email" name="_replyto" placeholder="E-mail Address">
+        </div>
+
+    </div>
+
+    <textarea id="formSpreeTextArea" rows="8" class="form-control mb-3" name="message" placeholder="Message"></textarea>
+
+    <input class="btn btn-success" type="submit" value="Send">
 </form>
 
 <script type='text/javascript'>
