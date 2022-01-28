@@ -20,8 +20,8 @@ here's where we <i>excel</i>:
                 <div class="card-text">
                     <ul>
                         <li>We specialize in <b>security best-practices</b> regarding architecture and <b>Identity and Access Management (<a href="https://searchsecurity.techtarget.com/definition/identity-access-management-IAM-system" target="_blank">IAM</a>)</b>--including service-to-service communication, internal and external facing APIs, and Single Sign-on <br/><small>(OAuth2, OpenID Connect)</small></li>
-                        <li>We <b>automate</b> your application's deployment to the cloud from the outset--following an evidence-based approach to <b>software delivery performance</b> (Note: see our <a href="{{ site.baseurl }}/driving-guidelines#accelerate">driving guidelines</a>) <br/><small>(Google Kubernetes Engine, Jenkins X, CI/CD, GitOps)</small></li>
-                        <li>We build <b>responsive web</b> (i.e. mobile-friendly) and <b>backend applications</b> <br/><small>(Java/Spring, JavaScript/React, PostgreSQL)</small></li>
+                        <li>We <b>automate</b> your application's deployment to the cloud from the outset--following an evidence-based approach to <b>software delivery performance</b> (Note: see our <a href="{{ site.baseurl }}/driving-guidelines#accelerate">driving guidelines</a>) <br/><small>(Google Cloud, Azure, CI/CD, GitOps)</small></li>
+                        <li>We build <b>responsive web</b> (i.e. mobile-friendly) and <b>backend applications</b> <br/><small>(Java/Spring, JavaScript/React, PostgreSQL/MongoDB)</small></li>
                     </ul>
                 </div>
             </div>

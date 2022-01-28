@@ -6,7 +6,7 @@ comments: false
 ## Shift-left security
 
 * By architecting applications with "security" in mind from the outset (i.e. earlier in the development process), organizations save over 50% on security related issues after launch. 
-* We build applications around a standalone OpenID Connect Identity Provider (e.g. Okta, Auth0, Keycloak, etc.). This helps standardize Identity and Access Management, keeps user details separate from the application(s), and allows new applications to be built along-side the old with relative ease. ([more reasons](https://jumpcloud.com/resources/why-it-should-always-start-with-the-identity-provider/)?)
+* We build applications around a standalone OpenID Connect Identity Provider (e.g. Okta, Auth0, Keycloak, Azure Active Directory, FusionAuth, etc.). This helps standardize Identity and Access Management, keeps user details separate from the application(s), and allows new applications to be built along-side the old with relative ease. ([more reasons](https://jumpcloud.com/resources/why-it-should-always-start-with-the-identity-provider/)?)
 
 ## Best-practice security
 * We outshine the average developer with respect to security and Identity and Access Management as we engage with other security leaders on standards and best practice

@@ -21,6 +21,11 @@ title: Contact
 
     <textarea id="formSpreeTextArea" rows="8" class="form-control mb-3" name="message" placeholder="Message"></textarea>
 
+    <!-- spam control -->
+    <input type="text" name="_gotcha" style="display:none" />
+
+    <div class="g-recaptcha" data-sitekey="6Le57EIeAAAAABJ6OFaRCVaGhqX2r-1Sq_D4kv3G"></div> <!-- replace with your recaptcha SITE key not secret key -->
+
     <input class="btn btn-success" type="submit" value="Send">
 </form>
 
