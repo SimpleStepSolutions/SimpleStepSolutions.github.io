@@ -327,6 +327,8 @@ span.post-name a,span.post-read-more a:hover {
 }
 .intro {
     background:url(../images/lauren-mancke-60627-unsplash.jpg) center;
+    /* background:url(../images/background.webp) center; */
+    /* background:url(../images/background.webp) center; */
     background-size:cover;
     padding: 9rem 0;
     margin-top:-87px;
