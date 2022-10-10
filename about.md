@@ -6,7 +6,7 @@ comments: false
 
 <img align="right" style="height:400px;box-shadow:none" src="assets/images/logo.svg">
 
-Over the course of his over 15-year career, Stephen Doxsee has worked as a software engineer, consultant and architect with organizations from large to small across diverse sectors including
+Over the course of his over 18-year career, Stephen Doxsee has worked as a software engineer, consultant and architect with organizations from large to small across diverse sectors including
 
 
 * <i class="fa fa-medkit"></i> healthcare
